@@ -1,3 +1,22 @@
-body {
-  margin: 0;
+.table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 4px;
+    border: 1px solid #333;
+}
+
+tr:hover {
+    background: #45afe0;
+}
+
+.asc:after {
+  content: '↓';
+}
+
+.desc:after {
+  content: '↑';
 }
